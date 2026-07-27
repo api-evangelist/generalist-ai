@@ -1,8 +1,15 @@
 aid: generalist-ai
 name: Generalist AI
-description: 'Generalist AI is a company surfaced as a portfolio company of spark-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Generalist AI, Inc. is a frontier AI research and product-driven company
+  building general intelligence for the physical world — training robots that work
+  autonomously across factories, warehouses, laboratories, restaurants, farms, homes,
+  and beyond. Its flagship model, GEN-1, is a general-purpose embodied foundation
+  model trained from scratch that reaches mastery of simple physical tasks, going
+  beyond world models and vision-language-action (VLA) approaches. Backed by Spark
+  Capital, the company publishes its research through a blog and open-sources vision
+  and robotics tooling on GitHub. Generalist AI exposes no public developer API, SDK,
+  or documentation surface at this time; this profile captures its identity and web
+  properties for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/generalist-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - spark-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://generalistai.com/assets/videos/index-hero/generalist-gen1-poster.jpg
 tags:
 - Company
-- Ai
+- Artificial Intelligence
+- Robotics
+- Foundation Models
+- Physical AI
+- Embodied AI
+- Robot Learning
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/generalist-ai-domain-security.yml
 - type: Website
   url: https://generalistai.com
+- type: Blog
+  url: https://generalistai.com/blog
+- type: GitHubOrganization
+  url: https://github.com/generalistai
+- type: Support
+  url: https://generalistai.com/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
