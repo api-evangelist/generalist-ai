@@ -1,15 +1,13 @@
 aid: generalist-ai
 name: Generalist AI
-description: 'Generalist AI, Inc. is a frontier AI research and product-driven company
-  building general intelligence for the physical world — training robots that work
-  autonomously across factories, warehouses, laboratories, restaurants, farms, homes,
-  and beyond. Its flagship model, GEN-1, is a general-purpose embodied foundation
-  model trained from scratch that reaches mastery of simple physical tasks, going
-  beyond world models and vision-language-action (VLA) approaches. Backed by Spark
-  Capital, the company publishes its research through a blog and open-sources vision
-  and robotics tooling on GitHub. Generalist AI exposes no public developer API, SDK,
-  or documentation surface at this time; this profile captures its identity and web
-  properties for the API Evangelist network.'
+description: Generalist AI, Inc. is a frontier AI research and product-driven company building general
+  intelligence for the physical world — training robots that work autonomously across factories, warehouses,
+  laboratories, restaurants, farms, homes, and beyond. Its flagship model, GEN-1, is a general-purpose
+  embodied foundation model trained from scratch that reaches mastery of simple physical tasks, going
+  beyond world models and vision-language-action (VLA) approaches. Backed by Spark Capital, the company
+  publishes its research through a blog and open-sources vision and robotics tooling on GitHub. Generalist
+  AI exposes no public developer API, SDK, or documentation surface at this time; this profile captures
+  its identity and web properties for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/generalist-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -30,7 +28,7 @@ accessModel:
   method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-08-08'
 image: https://generalistai.com/assets/videos/index-hero/generalist-gen1-poster.jpg
 tags:
 - Company
@@ -58,8 +56,12 @@ common:
   url: https://github.com/generalistai
 - type: Support
   url: https://generalistai.com/contact
+- type: About
+  url: https://generalistai.com/about
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- generalist
